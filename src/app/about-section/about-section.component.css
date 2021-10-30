@@ -1,0 +1,18 @@
+.about-section {
+  width: 90%;
+  margin: auto;
+  background-color: whitesmoke;
+  text-align: justify;
+  padding-bottom: 50px;
+  margin-bottom: 35px;
+  border-radius: 15px;
+  opacity: 15%;
+  transition: opacity 2s;
+}
+.about-section:hover {
+  opacity: 100%;
+}
+.about-section p {
+  margin-left: 30px;
+  margin-right: 30px;
+}

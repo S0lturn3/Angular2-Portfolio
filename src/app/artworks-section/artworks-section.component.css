@@ -1,0 +1,36 @@
+.artworks-section {
+  width: 90%;
+  margin: auto;
+  background-color: whitesmoke;
+  text-align: justify;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+  border-radius: 15px;
+  opacity: 15%;
+  transition: opacity 2s;
+}
+.artworks-section p {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.artworks-section:hover{
+  opacity: 100%;
+}
+
+/* -------------------- */
+.gallery{
+  width: 95%;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: solid grey 1px; */
+}
+.gallery img{
+  width: 200px;
+  height: 200px;
+}
+.gallery a{
+  margin: 15px;
+}

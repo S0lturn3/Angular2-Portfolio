@@ -1,0 +1,25 @@
+.resume-section {
+  width: 90%;
+  margin: auto;
+  background-color: whitesmoke;
+  text-align: justify;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+  border-radius: 15px;
+  opacity: 15%;
+  overflow: hidden;
+  transition: opacity 2s;
+}
+.resume-section p {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.resume-section:hover {
+  opacity: 100%;
+}
+.resume-data{
+  display: inline-flex;
+}
+.resume-data img{
+  width: 350px;
+}
