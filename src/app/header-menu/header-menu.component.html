@@ -1,7 +1,11 @@
-<div class="header-menu">
+<div [ngClass]="Active" class="header-menu" id="header-menu">
   <header class="navigation-links">
     <a href="#">About</a>
     <a href="#">Resume</a>
     <a href="#">Artworks</a>
+
+    <label class="theme-label">Tema escuro:</label>
+    <input type="checkbox" id="theme-checkbox" (click)="alertaClick()">
+    <!-- <button (click)="alertaClick()">Testing</button> -->
   </header>
 </div>

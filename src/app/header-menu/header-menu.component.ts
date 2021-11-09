@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderMenuComponent implements OnInit {
 
+  Active = "false";
+
+  alertaClick(){
+    this.Active = "true";
+  }
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }
