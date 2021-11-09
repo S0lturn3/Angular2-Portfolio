@@ -1,7 +1,9 @@
 .resume-section {
   width: 90%;
   margin: auto;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-color: rgb(20, 17, 24);
+  color: white;
   text-align: justify;
   padding-bottom: 25px;
   margin-bottom: 35px;

@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   font-family: "Cutive Mono", monospace;
-  background-image: url("./img/background-image.jpg");
+  background-image: url("./assets/img/misc/backgroundImage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
@@ -13,6 +13,13 @@ body h1{
   text-decoration: underline;
 }
 
+.header-bg{
+  background-color: rgba(10, 10, 10, 0.938);
+  width: 100%;
+  position: relative;
+}
+
+/* -------------------- */
 footer{
   background-color: rgb(20, 17, 24);
   width: 100%;

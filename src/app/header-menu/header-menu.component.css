@@ -4,7 +4,8 @@
   margin: auto;
   position: sticky;
   top: 15px;
-  background-color: #000000dc;
+  /* background-color: #000000dc; */
+  /* background-color: rgb(20, 17, 24); */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -12,6 +13,15 @@
   border: hidden;
   border-radius: 30px;
 }
+
+.false{
+  background-color: rgb(117, 107, 130);
+}
+
+.true{
+  background-color: rgb(20, 13, 29);
+}
+
 .navigation-links a {
   font-size: 18px;
   text-decoration: none;
