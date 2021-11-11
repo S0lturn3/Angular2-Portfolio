@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-about-section',
@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class AboutSectionComponent implements OnInit {
 
   constructor() { }
+
+  @Input() colorValue!: string;
 
   ngOnInit(): void {
   }

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
+import * as EventEmitter from 'events';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular 2 Portfolio';
+
+  colorValue: string = "escuro";
+
+  ngOnInit() {
+    this.colorValue = 'escuro';
+  }
+
+  changeValue(){
+    switch(this.colorValue){
+      case 'escuro':
+        this.colorValue = "claro";
+        break;
+
+      case 'claro':
+        this.colorValue = "escuro";
+        break;
+    }
+  }
 }
